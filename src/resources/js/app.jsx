@@ -1,9 +1,13 @@
-import './bootstrap';
+import { Card, CardBody, Navbar } from "@material-tailwind/react";
+import "./bootstrap";
+import Typography from "@material-tailwind/react";
 
 export default function App() {
     return (
         <>
-            <h1>App</h1>    
+            <Card className="p-2" shadow={false}>
+                <Navbar />
+            </Card>
         </>
     );
 }
